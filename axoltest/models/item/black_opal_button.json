@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/button_inventory",
-  "textures": {
-    "texture": "axoltest:block/raw_black_opal_block"
-  }
-}
