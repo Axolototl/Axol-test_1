@@ -16,6 +16,15 @@
   "block.axoltest.black_opal_stairs": "Black Opal Stairs",
   "block.axoltest.black_opal_slab": "Black Opal Slab",
 
+  "block.axoltest.black_opal_pressure_plate": "Black Opal Pressure Plate",
+  "block.axoltest.black_opal_button": "Black Opal Button",
+
+  "block.axoltest.black_opal_fence": "Black Opal Fence",
+  "block.axoltest.black_opal_fence_gate": "Black Opal Fence Gate",
+  "block.axoltest.black_opal_wall": "Black Opal Wall",
+
+  "block.axoltest.black_opal_door": "Black Opal Door",
+  "block.axoltest.black_opal_trapdoor": "Black Opal Trapdoor",
 
   "itemGroup.axoltest.black_opal_items_tab": "Black Opal Items",
   "itemGroup.axoltest.black_opal_blocks_tab": "Black Opal Blocks",
