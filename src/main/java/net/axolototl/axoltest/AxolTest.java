@@ -1,5 +1,8 @@
 package net.axolototl.axoltest;
 
+import net.axolototl.axoltest.block.ModBlocks;
+import net.axolototl.axoltest.item.ModCreativeModeTabs;
+import net.axolototl.axoltest.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.food.FoodProperties;
@@ -75,6 +78,12 @@ public class AxolTest
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
+        ModCreativeModeTabs.register(modEventBus);
+
         /*
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
@@ -114,8 +123,12 @@ public class AxolTest
         /*
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
             event.accept(EXAMPLE_BLOCK_ITEM);
-
          */
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.BLACK_OPAL);
+            event.accept(ModItems.RAW_BLACK_OPAL);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
