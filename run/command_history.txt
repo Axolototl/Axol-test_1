@@ -1,0 +1,48 @@
+/give Dev minecraft:golden_carrot 128
+/gamemode survival
+/enchant Dev minecraft:efficiency 5
+/effect give Dev minecraft:haste infinite 2
+/gamemode creative
+/gamemode survival
+/effect give Dev minecraft:haste infinite 3
+/effect give Dev minecraft:haste infinite 4
+/gamemode creative
+/difficulty peaceful
+/gamemode survival
+/gamemode creative
+/time set day
+/gamemode survival
+/give Dev minecraft:diamond_pickaxe
+/give Dev axoltest:black_opal_deepslate_ore 64
+/effect clear
+/gamemode creative
+/gamemode survival
+/enchant Dev minecraft:efficiency 5
+/give Dev minecraft:netherite_pickaxe
+/enchant Dev minecraft:efficiency 5
+/enchant Dev minecraft:fortune 3
+/enchant Dev minecraft:silk_touch
+/give Dev minecraft:glow_item_frame 64
+/give Dev minecraft:barrel 64
+/time set day
+/give Dev minecraft:netherite_pickaxe
+/enchant Dev minecraft:efficiency 5
+/enchant Dev minecraft:fortune 1
+/enchant Dev minecraft:fortune 2
+/enchant Dev minecraft:fortune 3
+/give Dev axoltest:black_opal_deepslate_ore 64
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/gamemode survival
+/give Dev axoltest:chainsaw
+/gamemode creative
+/tick sprint 3d
+/tick sprint 1d
+/tick rate 20
+/tick sprint stop
+/tick rate 30
+/tick rate 60
+/tick rate 20
+/time set day
